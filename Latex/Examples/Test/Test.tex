@@ -1,0 +1,53 @@
+% $Id$
+% TeX Live documentation.  Originally written by 张庭梁
+% Public domain.
+%
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+\documentclass[
+  a4paper, 
+  punct,
+  space=true,
+  nospace, 
+  fancyhdr, 
+  fntef,
+  UTF8,
+  autoindent = 2, % autoindent = ⟨true|false|数值|带单位的数值⟩
+  scheme=chinese     % scheme = ⟨(chinese)|plain⟩
+  ]{ctexart}
+
+
+\title{A}
+\author{A}
+
+\begin{document}
+
+  \maketitle
+	\thispagestyle{empty}
+	\newpage
+	\cfoot{\zihao{-5}第 \ \thepage \ 页 \ 共 \ \pageref{lastpage} 页}%%%%lastpage为末页标签
+	\pagenumbering{arabic}%页码使用阿拉伯数字
+	%\setcounter{page}{0}  %重新设置页码计数
+	\pagestyle{fancy}
+	
+	\label{lastpage}
+\end{document}
+
+
+%%% The "real" document content comes below...
+
+\title{EVTOL个人飞行器的优势与挑战}
+\author{Tingliang Zhang 张庭梁}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+\section{需求分析}
+
+
+\end{document}

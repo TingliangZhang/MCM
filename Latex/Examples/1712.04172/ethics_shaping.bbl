@@ -1,0 +1,258 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Abbeel and Ng}{2004}]{al}
+Abbeel, P., and Ng, A.~Y.
+\newblock 2004.
+\newblock Apprenticeship learning via inverse reinforcement learning.
+\newblock In {\em Proceedings of the twenty-first international conference on
+  Machine learning}.
+
+\bibitem[\protect\citeauthoryear{Abel, MacGlashan, and Littman}{2016}]{rledm}
+Abel, D.; MacGlashan, J.; and Littman, M.~L.
+\newblock 2016.
+\newblock Reinforcement learning as a framework for ethical decision making.
+\newblock In {\em AAAI Workshop: AI, Ethics, and Society}.
+
+\bibitem[\protect\citeauthoryear{Amin and Singh}{2016}]{irl1}
+Amin, K., and Singh, S.
+\newblock 2016.
+\newblock Towards resolving unidentifiability in inverse reinforcement
+  learning.
+\newblock {\em arXiv preprint arXiv:1601.06569}.
+
+\bibitem[\protect\citeauthoryear{Amodei \bgroup et al\mbox.\egroup
+  }{2016}]{concrete}
+Amodei, D.; Olah, C.; Steinhardt, J.; Christiano, P.; Schulman, J.; and
+  Man{\'e}, D.
+\newblock 2016.
+\newblock Concrete problems in ai safety.
+\newblock {\em arXiv preprint arXiv:1606.06565}.
+
+\bibitem[\protect\citeauthoryear{Anderson and Anderson}{2011}]{me}
+Anderson, M., and Anderson, S.~L.
+\newblock 2011.
+\newblock {\em Machine ethics}.
+\newblock Cambridge University Press.
+
+\bibitem[\protect\citeauthoryear{Arkoudas, Bringsjord, and
+  Bello}{2005}]{deontic1}
+Arkoudas, K.; Bringsjord, S.; and Bello, P.
+\newblock 2005.
+\newblock Toward ethical robots via mechanized deontic logic.
+\newblock In {\em AAAI Fall Symposium on Machine Ethics}.
+
+\bibitem[\protect\citeauthoryear{Armstrong}{2015}]{armstrong}
+Armstrong, S.
+\newblock 2015.
+\newblock Motivated value selection for artificial agents.
+\newblock In {\em AAAI Workshop: AI and Ethics}.
+
+\bibitem[\protect\citeauthoryear{Arnold, Kasenberg, and
+  Scheutz}{2017}]{accountable}
+Arnold, T.; Kasenberg, D.; and Scheutz, M.
+\newblock 2017.
+\newblock Value alignment or misalignment--what will keep systems accountable?
+
+\bibitem[\protect\citeauthoryear{Bennett and Hauser}{2013}]{clinicalai}
+Bennett, C.~C., and Hauser, K.
+\newblock 2013.
+\newblock Artificial intelligence framework for simulating clinical
+  decision-making: A markov decision process approach.
+\newblock {\em Artificial intelligence in medicine}.
+
+\bibitem[\protect\citeauthoryear{Bonnefon, Shariff, and Rahwan}{2015}]{av1}
+Bonnefon, J.-F.; Shariff, A.; and Rahwan, I.
+\newblock 2015.
+\newblock Autonomous vehicles need experimental ethics: are we ready for
+  utilitarian cars?
+\newblock {\em arXiv preprint arXiv:1510.03346}.
+
+\bibitem[\protect\citeauthoryear{Borowiec}{2016}]{alphago}
+Borowiec, S.
+\newblock 2016.
+\newblock Alphago seals 4--1 victory over go grandmaster lee sedol.
+\newblock {\em The Guardian}.
+
+\bibitem[\protect\citeauthoryear{Bostrom and Yudkowsky}{2014}]{bostrom}
+Bostrom, N., and Yudkowsky, E.
+\newblock 2014.
+\newblock The ethics of artificial intelligence.
+\newblock {\em The Cambridge handbook of artificial intelligence}.
+
+\bibitem[\protect\citeauthoryear{Bostrom}{2014}]{super}
+Bostrom, N.
+\newblock 2014.
+\newblock {\em Superintelligence: Paths, dangers, strategies}.
+\newblock OUP Oxford.
+
+\bibitem[\protect\citeauthoryear{Brafman and Tennenholtz}{2002}]{rmax}
+Brafman, R.~I., and Tennenholtz, M.
+\newblock 2002.
+\newblock R-max-a general polynomial time algorithm for near-optimal
+  reinforcement learning.
+\newblock {\em Journal of Machine Learning Research}.
+
+\bibitem[\protect\citeauthoryear{Briggs and Scheutz}{2015}]{sorry}
+Briggs, G., and Scheutz, M.
+\newblock 2015.
+\newblock Sorry, i can’t do that”: Developing mechanisms to appropriately
+  reject directives in human-robot interactions.
+\newblock In {\em 2015 AAAI Fall Symposium Series}.
+
+\bibitem[\protect\citeauthoryear{Bringsjord, Arkoudas, and
+  Bello}{2006}]{deontic2}
+Bringsjord, S.; Arkoudas, K.; and Bello, P.
+\newblock 2006.
+\newblock Toward a general logicist methodology for engineering ethically
+  correct robots.
+\newblock {\em IEEE Intelligent Systems}.
+
+\bibitem[\protect\citeauthoryear{Brys \bgroup et al\mbox.\egroup
+  }{2015}]{rsdemo}
+Brys, T.; Harutyunyan, A.; Suay, H.~B.; Chernova, S.; Taylor, M.~E.; and
+  Now{\'e}, A.
+\newblock 2015.
+\newblock Reinforcement learning from demonstration through shaping.
+\newblock In {\em IJCAI}.
+
+\bibitem[\protect\citeauthoryear{Clarke}{1975}]{clarke}
+Clarke, D.
+\newblock 1975.
+\newblock The logical form of imperatives.
+\newblock {\em Philosophia}.
+
+\bibitem[\protect\citeauthoryear{Evans, Stuhlm{\"u}ller, and
+  Goodman}{2016}]{irl2}
+Evans, O.; Stuhlm{\"u}ller, A.; and Goodman, N.~D.
+\newblock 2016.
+\newblock Learning the preferences of ignorant, inconsistent agents.
+\newblock In {\em AAAI}.
+
+\bibitem[\protect\citeauthoryear{Goodall}{2014}]{av2}
+Goodall, N.~J.
+\newblock 2014.
+\newblock Machine ethics and automated vehicles.
+\newblock In {\em Road vehicle automation}.
+
+\bibitem[\protect\citeauthoryear{Griffith \bgroup et al\mbox.\egroup
+  }{2013}]{integrate}
+Griffith, S.; Subramanian, K.; Scholz, J.; Isbell, C.; and Thomaz, A.~L.
+\newblock 2013.
+\newblock Policy shaping: Integrating human feedback with reinforcement
+  learning.
+\newblock In {\em NIPS}.
+
+\bibitem[\protect\citeauthoryear{Horty}{2001}]{horty}
+Horty, J.~F.
+\newblock 2001.
+\newblock {\em Agency and deontic logic}.
+\newblock Oxford University Press.
+
+\bibitem[\protect\citeauthoryear{Li \bgroup et al\mbox.\egroup
+  }{2013}]{crowdsourced}
+Li, B.; Lee-Urban, S.; Johnston, G.; and Riedl, M.
+\newblock 2013.
+\newblock Story generation with crowdsourced plot graphs.
+\newblock In {\em AAAI}.
+
+\bibitem[\protect\citeauthoryear{Lin}{1992}]{routeplanning}
+Lin, L.-H.
+\newblock 1992.
+\newblock Self-improving reactive agents based on reinforcement learning,
+  planning and teaching.
+\newblock {\em Machine learning}.
+
+\bibitem[\protect\citeauthoryear{Ng, Russell, and others}{2000}]{irl3}
+Ng, A.~Y.; Russell, S.~J.; et~al.
+\newblock 2000.
+\newblock Algorithms for inverse reinforcement learning.
+\newblock In {\em Icml}.
+
+\bibitem[\protect\citeauthoryear{Raza, Johnston, and Williams}{2016}]{reward}
+Raza, S.~A.; Johnston, B.; and Williams, M.-A.
+\newblock 2016.
+\newblock Reward from demonstration in interactive reinforcement learning.
+\newblock In {\em FLAIRS conference}.
+
+\bibitem[\protect\citeauthoryear{Riedl and Harrison}{2016}]{stories}
+Riedl, M.~O., and Harrison, B.
+\newblock 2016.
+\newblock Using stories to teach human values to artificial agents.
+\newblock In {\em AAAI Workshop: AI, Ethics, and Society}.
+
+\bibitem[\protect\citeauthoryear{Ring and Orseau}{2011}]{wirehead}
+Ring, M., and Orseau, L.
+\newblock 2011.
+\newblock Delusion, survival, and intelligent agents.
+\newblock In {\em International Conference on Artificial General Intelligence}.
+
+\bibitem[\protect\citeauthoryear{Rummery and Niranjan}{1994}]{sarsa}
+Rummery, G.~A., and Niranjan, M.
+\newblock 1994.
+\newblock {\em On-line Q-learning using connectionist systems}.
+\newblock University of Cambridge, Department of Engineering.
+
+\bibitem[\protect\citeauthoryear{Russell, Dewey, and Tegmark}{2015}]{priority}
+Russell, S.; Dewey, D.; and Tegmark, M.
+\newblock 2015.
+\newblock Research priorities for robust and beneficial artificial
+  intelligence.
+\newblock {\em Ai Magazine}.
+
+\bibitem[\protect\citeauthoryear{Sezener}{2015}]{irl4}
+Sezener, C.~E.
+\newblock 2015.
+\newblock Inferring human values for safe agi design.
+\newblock In {\em International Conference on Artificial General Intelligence}.
+
+\bibitem[\protect\citeauthoryear{Silver \bgroup et al\mbox.\egroup
+  }{2016}]{mastergo}
+Silver, D.; Huang, A.; Maddison, C.~J.; Guez, A.; Sifre, L.; Van Den~Driessche,
+  G.; Schrittwieser, J.; Antonoglou, I.; Panneershelvam, V.; Lanctot, M.;
+  et~al.
+\newblock 2016.
+\newblock Mastering the game of go with deep neural networks and tree search.
+\newblock {\em Nature}.
+
+\bibitem[\protect\citeauthoryear{Skinner}{1990}]{behavior}
+Skinner, B.~F.
+\newblock 1990.
+\newblock {\em The behavior of organisms: An experimental analysis}.
+\newblock BF Skinner Foundation.
+
+\bibitem[\protect\citeauthoryear{Soares and Fallenstein}{2014}]{aligning}
+Soares, N., and Fallenstein, B.
+\newblock 2014.
+\newblock Aligning superintelligence with human interests: A technical research
+  agenda.
+\newblock {\em Machine Intelligence Research Institute (MIRI) technical
+  report}.
+
+\bibitem[\protect\citeauthoryear{Strehl \bgroup et al\mbox.\egroup
+  }{2006}]{pac}
+Strehl, A.~L.; Li, L.; Wiewiora, E.; Langford, J.; and Littman, M.~L.
+\newblock 2006.
+\newblock Pac model-free reinforcement learning.
+\newblock In {\em Proceedings of the 23rd international conference on Machine
+  learning}.
+
+\bibitem[\protect\citeauthoryear{Strehl, Li, and Littman}{2009}]{pacmdp}
+Strehl, A.~L.; Li, L.; and Littman, M.~L.
+\newblock 2009.
+\newblock Reinforcement learning in finite mdps: Pac analysis.
+\newblock {\em Journal of Machine Learning Research}.
+
+\bibitem[\protect\citeauthoryear{Sutton and Barto}{1998}]{reinforcement}
+Sutton, R.~S., and Barto, A.~G.
+\newblock 1998.
+\newblock {\em Reinforcement learning: An introduction}.
+\newblock MIT press Cambridge.
+
+\bibitem[\protect\citeauthoryear{Taylor \bgroup et al\mbox.\egroup
+  }{2016}]{alignment}
+Taylor, J.; Yudkowsky, E.; LaVictoire, P.; and Critch, A.
+\newblock 2016.
+\newblock Alignment for advanced machine learning systems.
+\newblock {\em Machine Intelligence Research Institute}.
+
+\end{thebibliography}

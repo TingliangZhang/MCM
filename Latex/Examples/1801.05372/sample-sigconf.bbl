@@ -1,0 +1,283 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Biem, Butrico, Feblowitz, Klinger, Malitsky,
+  Ng, Perer, Reddy, Riabov, Samulowitz, Sow, Tesauro, and Turaga}{Biem
+  et~al\mbox{.}}{2015}]%
+        {cads}
+\bibfield{author}{\bibinfo{person}{Alain Biem}, \bibinfo{person}{Maria
+  Butrico}, \bibinfo{person}{Mark Feblowitz}, \bibinfo{person}{Tim Klinger},
+  \bibinfo{person}{Yuri Malitsky}, \bibinfo{person}{Kenney Ng},
+  \bibinfo{person}{Adam Perer}, \bibinfo{person}{Chandra Reddy},
+  \bibinfo{person}{Anton Riabov}, \bibinfo{person}{Horst Samulowitz},
+  \bibinfo{person}{Daby~M. Sow}, \bibinfo{person}{Gerald Tesauro}, {and}
+  \bibinfo{person}{Deepak~S. Turaga}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Towards Cognitive Automation of Data Science}. In
+  \bibinfo{booktitle}{{\em Proceedings of the Twenty-Ninth {AAAI} Conference on
+  Artificial Intelligence, January 25-30, 2015, Austin, Texas, {USA.}}}
+  \bibinfo{pages}{4268--4269}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brochu, Cora, and De~Freitas}{Brochu
+  et~al\mbox{.}}{2010}]%
+        {brochu2010tutorial}
+\bibfield{author}{\bibinfo{person}{Eric Brochu}, \bibinfo{person}{Vlad~M Cora},
+  {and} \bibinfo{person}{Nando De~Freitas}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{A tutorial on Bayesian optimization of expensive
+  cost functions, with application to active user modeling and hierarchical
+  reinforcement learning}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1012.2599\/}}
+  (\bibinfo{year}{2010}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Feurer, Klein, Eggensperger, Springenberg,
+  Blum, and Hutter}{Feurer et~al\mbox{.}}{2015}]%
+        {feurer2015efficient}
+\bibfield{author}{\bibinfo{person}{Matthias Feurer}, \bibinfo{person}{Aaron
+  Klein}, \bibinfo{person}{Katharina Eggensperger}, \bibinfo{person}{Jost
+  Springenberg}, \bibinfo{person}{Manuel Blum}, {and} \bibinfo{person}{Frank
+  Hutter}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Efficient and robust automated machine learning}.
+  In \bibinfo{booktitle}{{\em Advances in Neural Information Processing
+  Systems}}. \bibinfo{pages}{2962--2970}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Getoor and Taskar}{Getoor and Taskar}{2007}]%
+        {lisa}
+\bibfield{author}{\bibinfo{person}{Lise Getoor} {and} \bibinfo{person}{Ben
+  Taskar}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Introduction to Statistical Relational
+  Learning (Adaptive Computation and Machine Learning)}}.
+\newblock \bibinfo{publisher}{The MIT Press}.
+\newblock
+\showISBNx{0262072882}
+
+
+\bibitem[\protect\citeauthoryear{Goodfellow, Bengio, and Courville}{Goodfellow
+  et~al\mbox{.}}{2016}]%
+        {dlbook}
+\bibfield{author}{\bibinfo{person}{Ian Goodfellow}, \bibinfo{person}{Yoshua
+  Bengio}, {and} \bibinfo{person}{Aaron Courville}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Deep Learning}}.
+\newblock \bibinfo{publisher}{MIT Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kanter and Veeramachaneni}{Kanter and
+  Veeramachaneni}{2015}]%
+        {DFS}
+\bibfield{author}{\bibinfo{person}{James~Max Kanter} {and}
+  \bibinfo{person}{Kalyan Veeramachaneni}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Deep feature synthesis: Towards automating data
+  science endeavors}. In \bibinfo{booktitle}{{\em Data Science and Advanced
+  Analytics (DSAA), 2015. 36678 2015. IEEE International Conference on}}. IEEE,
+  \bibinfo{pages}{1--10}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Karp}{Karp}{1972}]%
+        {karp1972reducibility}
+\bibfield{author}{\bibinfo{person}{Richard~M Karp}.}
+  \bibinfo{year}{1972}\natexlab{}.
+\newblock \showarticletitle{Reducibility among combinatorial problems}.
+\newblock In \bibinfo{booktitle}{{\em Complexity of computer computations}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{85--103}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Khurana, Parthasarathy, and Turaga}{Khurana
+  et~al\mbox{.}}{2014}]%
+        {read}
+\bibfield{author}{\bibinfo{person}{Udayan Khurana}, \bibinfo{person}{Srinivasan
+  Parthasarathy}, {and} \bibinfo{person}{Deepak~S. Turaga}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{READ:} Rapid data Exploration, Analysis and
+  Discovery}. In \bibinfo{booktitle}{{\em EDBT 2014}}.
+  \bibinfo{pages}{612--615}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.5441/002/edbt.2014.56}}
+
+
+\bibitem[\protect\citeauthoryear{Khurana, Turaga, Samulowitz, and
+  Parthasarathy}{Khurana et~al\mbox{.}}{}]%
+        {cognito}
+\bibfield{editor}{\bibinfo{person}{Udayan Khurana}, \bibinfo{person}{Deepak
+  Turaga}, \bibinfo{person}{Horst Samulowitz}, {and}
+  \bibinfo{person}{Srinivasan Parthasarathy}} (Eds.).
+\newblock \bibinfo{booktitle}{{\em Cognito: Automated Feature Engineering for
+  Supervised Learning , ICDM 2016}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kotthoff, Thornton, Hoos, Hutter, and
+  Leyton-Brown}{Kotthoff et~al\mbox{.}}{2016}]%
+        {kotthoff2016auto}
+\bibfield{author}{\bibinfo{person}{Lars Kotthoff}, \bibinfo{person}{Chris
+  Thornton}, \bibinfo{person}{Holger~H Hoos}, \bibinfo{person}{Frank Hutter},
+  {and} \bibinfo{person}{Kevin Leyton-Brown}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Auto-WEKA 2.0: Automatic model selection and
+  hyperparameter optimization in WEKA}.
+\newblock \bibinfo{journal}{{\em Journal of Machine Learning Research\/}}
+  \bibinfo{volume}{17} (\bibinfo{year}{2016}), \bibinfo{pages}{1--5}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lam, Thiebaut, Sinn, Chen, Mai, and Alkan}{Lam
+  et~al\mbox{.}}{2017}]%
+        {onebm}
+\bibfield{author}{\bibinfo{person}{Hoang~Thanh Lam},
+  \bibinfo{person}{Johann{-}Michael Thiebaut}, \bibinfo{person}{Mathieu Sinn},
+  \bibinfo{person}{Bei Chen}, \bibinfo{person}{Tiep Mai}, {and}
+  \bibinfo{person}{Oznur Alkan}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{One button machine for automating feature
+  engineering in relational databases}.
+\newblock \bibinfo{journal}{{\em CoRR\/}}  \bibinfo{volume}{abs/1706.00327}
+  (\bibinfo{year}{2017}).
+\newblock
+\showeprint[arxiv]{1706.00327}
+\showURL{%
+\url{http://arxiv.org/abs/1706.00327}}
+
+
+\bibitem[\protect\citeauthoryear{Lloyd, Duvenaud, Grosse, Tenenbaum, and
+  Ghahramani}{Lloyd et~al\mbox{.}}{2014}]%
+        {autostatistician}
+\bibfield{author}{\bibinfo{person}{James~Robert Lloyd}, \bibinfo{person}{David
+  Duvenaud}, \bibinfo{person}{Roger Grosse}, \bibinfo{person}{Joshua~B.
+  Tenenbaum}, {and} \bibinfo{person}{Zoubin Ghahramani}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Automatic Construction and {Natural-Language}
+  Description of Nonparametric Regression Models}. In \bibinfo{booktitle}{{\em
+  AAAI}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mo{\v{c}}kus}{Mo{\v{c}}kus}{1975}]%
+        {Mockus1975}
+\bibfield{author}{\bibinfo{person}{J. Mo{\v{c}}kus}.}
+  \bibinfo{year}{1975}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em On bayesian methods for seeking the
+  extremum}}.
+\newblock \bibinfo{publisher}{Springer Berlin Heidelberg},
+  \bibinfo{address}{Berlin, Heidelberg}, \bibinfo{pages}{400--404}.
+\newblock
+\showISBNx{978-3-540-37497-8}
+
+
+\bibitem[\protect\citeauthoryear{Olson, Bartley, Urbanowicz, and Moore}{Olson
+  et~al\mbox{.}}{2016}]%
+        {tpot}
+\bibfield{author}{\bibinfo{person}{Randal~S. Olson}, \bibinfo{person}{Nathan
+  Bartley}, \bibinfo{person}{Ryan~J. Urbanowicz}, {and}
+  \bibinfo{person}{Jason~H. Moore}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Evaluation of a Tree-based Pipeline Optimization
+  Tool for Automating Data Science}. In \bibinfo{booktitle}{{\em Proceedings of
+  the Genetic and Evolutionary Computation Conference 2016}} {\em
+  (\bibinfo{series}{GECCO '16})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{485--492}.
+\newblock
+\showISBNx{978-1-4503-4206-3}
+
+
+\bibitem[\protect\citeauthoryear{Perov{\v{s}}ek, Vavpeti{\v{c}}, Kranjc,
+  Cestnik, and Lavra{\v{c}}}{Perov{\v{s}}ek et~al\mbox{.}}{2015}]%
+        {wordification}
+\bibfield{author}{\bibinfo{person}{Matic Perov{\v{s}}ek},
+  \bibinfo{person}{An{\v{z}}e Vavpeti{\v{c}}}, \bibinfo{person}{Janez Kranjc},
+  \bibinfo{person}{Bojan Cestnik}, {and} \bibinfo{person}{Nada Lavra{\v{c}}}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Wordification: Propositionalization by unfolding
+  relational data into bags of words}.
+\newblock \bibinfo{journal}{{\em Expert Systems with Applications\/}}
+  \bibinfo{volume}{42}, \bibinfo{number}{17} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{6442--6456}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sch{\"a}fer and Zimmermann}{Sch{\"a}fer and
+  Zimmermann}{2006}]%
+        {universal}
+\bibfield{author}{\bibinfo{person}{Anton~Maximilian Sch{\"a}fer} {and}
+  \bibinfo{person}{Hans~Georg Zimmermann}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Recurrent neural networks are universal
+  approximators}. In \bibinfo{booktitle}{{\em International Conference on
+  Artificial Neural Networks}}. Springer, \bibinfo{pages}{632--640}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Snoek, Larochelle, and Adams}{Snoek
+  et~al\mbox{.}}{2012}]%
+        {Snoek2012}
+\bibfield{author}{\bibinfo{person}{Jasper Snoek}, \bibinfo{person}{Hugo
+  Larochelle}, {and} \bibinfo{person}{Ryan~P. Adams}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Practical Bayesian Optimization of Machine Learning
+  Algorithms}. In \bibinfo{booktitle}{{\em NIPS 2012.}}
+  \bibinfo{pages}{2960--2968}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Thornton, Hutter, Hoos, and
+  Leyton-Brown}{Thornton et~al\mbox{.}}{}]%
+        {ThoHutHooLey13-AutoWEKA}
+\bibfield{author}{\bibinfo{person}{C. Thornton}, \bibinfo{person}{F. Hutter},
+  \bibinfo{person}{H.~H. Hoos}, {and} \bibinfo{person}{K. Leyton-Brown}.}
+\newblock \showarticletitle{Auto-{WEKA}: Combined Selection and Hyperparameter
+  Optimization of Classification Algorithms}. In \bibinfo{booktitle}{{\em
+  Proc.~of KDD-2013}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wistuba, Nicolas, and Schmidt-Thieme}{Wistuba
+  et~al\mbox{.}}{2017}]%
+        {ensemble}
+\bibfield{author}{\bibinfo{person}{Martin Wistuba}, \bibinfo{person}{Schilling
+  Nicolas}, {and} \bibinfo{person}{Lars Schmidt-Thieme}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Automatic Frankensteining: Creating complex
+  ensembles autonomously}. In \bibinfo{booktitle}{{\em SIAM SDM}}.
+\newblock
+
+
+\end{thebibliography}
