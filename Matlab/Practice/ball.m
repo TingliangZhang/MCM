@@ -1,4 +1,3 @@
-Ball.m
 %Script file ball.m
 %
 %Purpose:
@@ -41,10 +40,10 @@ end
 fprintf('Range versus angle theta"\n');
 for ii=1:5:91
     theta=ii-1;
-    fprintf('%2d %8.4f\n',theta,range(ii));
+    fprintf('%2d %8.4f\n',theta,range(ii));    %  %4.2f表示输出一个实数，默认宽度是4，有两位小数（会进入四舍五入），如果实际宽度超过4，则按实际宽度输出。
 end
 %计算最大的角度和水平距离 
-[maxrange index]=max(range);
+[maxrange, index]=max(range);
 maxangle = index-1;
 fprintf('\n Max range is %8.4f at %2d degress.\n',maxrange,maxangle);
 %绘制轨迹图形 
