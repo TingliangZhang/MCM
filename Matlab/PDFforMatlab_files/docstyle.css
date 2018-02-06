@@ -1,0 +1,1281 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+<title>MATLAB Documentation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="canonical" href="https://www.mathworks.com/help/pdf_doc/matlab/docstyle.css" />
+<link href="/includes_content/responsive/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/includes_content/responsive/css/site6.css?20170913" rel="stylesheet" type="text/css">
+<link href="/includes_content/responsive/css/site6_lg.css?20170913" rel="stylesheet" media="screen and (min-width: 1200px)">
+<link href="/includes_content/responsive/css/site6_md.css?20170913" rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)">
+<link href="/includes_content/responsive/css/site6_sm+xs.css?20170913" rel="stylesheet" media="screen and (max-width: 991px)">
+<link href="/includes_content/responsive/css/site6_sm.css?20170913" rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)">
+<link href="/includes_content/responsive/css/site6_xs.css?20170913" rel="stylesheet" media="screen and (max-width: 767px)">
+<!--[if IE 8]>
+<link href="/includes_content/responsive/css/site6_ie8.css?20170913" rel="stylesheet" type="text/css">
+<script src="/includes_content/responsive/scripts/bootstrap/html5shiv-printshiv.js"></script>
+<script src="/includes_content/responsive/scripts/bootstrap/respond.min.js"></script>
+<script src="/includes_content/responsive/scripts/bootstrap/placeholders.min.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<link href="/includes_content/responsive/css/site6_ie9.css?20170913" rel="stylesheet" type="text/css">
+<script src="/includes_content/responsive/scripts/bootstrap/placeholders.min.js"></script>
+<![endif]-->
+<link href="/includes_content/responsive/css/site6_offcanvas.css?20170913" rel="stylesheet" type="text/css">
+<!--[if IE 8]>
+<link href="/includes_content/responsive/css/site6_offcanvas_ie8.css?20170913" rel="stylesheet" type="text/css">
+<script src="/includes_content/responsive/scripts/bootstrap/respond.min.js"></script>
+<![endif]-->
+<script src="/includes_content/responsive/scripts/jquery/jquery-latest.js"></script>
+<script src="/includes_content/responsive/scripts/jquery/jquery.mobile.custom.min.js"></script>
+<script src="/includes_content/responsive/scripts/bootstrap/bootstrap.min.js"></script>
+<script src="/includes_content/responsive/scripts/global.js"></script>
+<script src="https://fonts.mathworks.com/xvy5baa.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<!-- BEGIN Adobe DTM -->
+<script src="//assets.adobedtm.com/d0cc0600946eb3957f703b9fe43c3590597a8c2c/satelliteLib-e8d23c2e444abadc572df06537e2def59c01db09.js"></script>
+<!-- END Adobe DTM -->
+<link href="/includes_content/releases/R2017b/css/doc_center.css?20170913" rel="stylesheet" type="text/css">
+<!--[if IE 8]>
+<link href="/includes_content/releases/R2017b/css/doc_center_ie8.css?20170913" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 9]>
+<link href="/includes_content/releases/R2017b/css/doc_center_ie9.css?20170913" rel="stylesheet" type="text/css">
+<![endif]-->
+<link href="/includes_content/releases/R2017b/css/doc_center_print.css?20170913" rel="stylesheet" type="text/css" media="print">
+<script src="/help/releases/R2017b/includes/web/scripts/matlab_dialog.js?20170913"></script>
+<script src="https://openwith.mathworks.com/openwith.js?123456"></script>
+<style>
+.examples_short_list a.btn {display: none;}
+</style>
+<meta name="generator" content="DocBook XSL Stylesheets V1.52.2">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="toctype" content="cat">
+<script src="/help/releases/R2017b/includes/shared/scripts/l10n.js?201710161721"></script>
+<script src="/help/releases/R2017b/basecodes.js?201710161721"></script>
+<script src="/help/releases/R2017b/includes/product/scripts/underscore-min.js?201710161721"></script>
+<script src="/help/releases/R2017b/includes/product/scripts/hspresolution.js?201710161721"></script>
+<script src="/help/releases/R2017b/includes/product/scripts/productfilter.js?201710161721"></script>
+<script type="text/javascript" src="/includes_content/nextgen/scripts/jquery/jquery.expand.js"></script>
+<script type="text/javascript" charset="utf-8">
+$(function() {
+$("h3.expand").toggler();
+$(".expand_container").expandAll({trigger: "h3.expand", ref: "div.expand_container", showMethod: "slideDown", hideMethod: "slideUp", speed: 200});
+});
+</script>
+<!-- Additions/overrides from the doc side -->
+<script type="text/javascript" src="/help/search/R2017b/docsearch.js?20150321"></script>
+<script type="text/javascript" src="/includes_content/nextgen/scripts/jquery/jquery.toggleval.js?201409291140"></script>
+<style>
+.family_container.off {display:none;}
+.product_group.off {display:none;}
+</style>
+<script type="text/javascript">
+function handleSelectedProducts(prodList) {
+if (prodList == null || prodList.length == 0) {
+showAllProducts('.family_container', '.product_group');
+addClass('.3p-link', 'not_coming_from_product');
+removeClass('.3p-link', 'coming_from_product');
+hideNonProductList('.3p-links');
+} else {
+jQuery.each(prodList, function(index,value) {
+var prodElements = $("."+value+"-link");
+showProduct("."+value+"-link", '.family_container', '.product_group');
+if (value === "3p") {
+showNonProductList('.3p-links');
+$('#supp_software').show();
+}
+});
+}
+loadLeftNavFromJSON(prodList);
+}
+function handleSelectedAddOns(addOnList) {
+if (addOnList != null) {
+showNonProductList('.sp-links');
+jQuery.each(addOnList, function(index,value) {
+showProduct("."+value+"-link", '.family_container', '.product_group');
+});
+}
+}
+function showProduct(productID, containerID, groupID) {
+var prodElements = $(productID);
+prodElements.show();
+prodElements.closest(containerID).removeClass('off');
+if (groupID != null && groupID.length > 0) {
+prodElements.closest(groupID).removeClass('off');
+}
+}
+function showAllProducts(containerID, groupID) {
+var prodElements = $(containerID + ' ' + '.product-link');
+prodElements.show();
+prodElements.closest(containerID).removeClass('off');
+if (groupID != null && groupID.length > 0) {
+prodElements.closest(groupID).removeClass('off');
+}
+}
+function addClass(linkID, className) {
+var links = $(linkID);
+for(var i=0; i<links.length; i++){
+var link = links.eq(i);
+link.addClass(className);
+}
+}
+function removeClass(linkID, className) {
+var links = $(linkID);
+for(var i=0; i<links.length; i++){
+var link = links.eq(i);
+link.removeClass(className);
+}
+}
+function hideNonProductList(linkID) {
+var links = $(linkID);
+for(var i=0; i<links.length; i++){
+var link = links.eq(i);
+link.addClass("support_package_list");
+link.closest('.family_container').addClass('off');
+}
+}
+function showNonProductList(linkID) {
+var links = $(linkID);
+for(var i=0; i<links.length; i++){
+var link = links.eq(i);
+link.removeClass("support_package_list");
+link.closest('.family_container').removeClass('off');
+}
+}
+function loadLeftNavFromJSON(selectedProductList) {
+'use strict';
+$.getJSON('all_product_doc.json', function (allProductJson) {
+if (selectedProductList == null || selectedProductList.length == 0) {
+handleProductList(allProductJson, 'all_product_list', 'all_products');
+} else {
+var filteredJson = allProductJson.filter(function (obj) {
+if ('shortname' in obj) {
+for (var i = 0; i < selectedProductList.length; i++) {
+if (selectedProductList[i] === obj.shortname) {
+return true;
+}
+}
+return false;
+} else {
+return false;
+}
+});
+handleComingFromProductList(filteredJson, 'all_product_list', 'all_products');
+}
+});
+}
+$(setVisibility);
+</script>
+<script type="text/javascript" src="/includes_content/nextgen/scripts/jquery/jquery.cookie.js"></script>
+<script type="text/javascript">
+var domainCountryCodeMap = new Map();
+domainCountryCodeMap.set('www.mathworks.com', 'us');
+domainCountryCodeMap.set('www.mathworks.com', 'us');
+domainCountryCodeMap.set('la.mathworks.com', 'la');
+domainCountryCodeMap.set('au.mathworks.com', 'au');
+domainCountryCodeMap.set('de.mathworks.com', 'de');
+domainCountryCodeMap.set('nl.mathworks.com', 'nl');
+domainCountryCodeMap.set('cn.mathworks.com', 'cn');
+domainCountryCodeMap.set('se.mathworks.com', 'se');
+domainCountryCodeMap.set('se.mathworks.com', 'se');
+domainCountryCodeMap.set('fr.mathworks.com', 'fr');
+domainCountryCodeMap.set('de.mathworks.com', 'de');
+domainCountryCodeMap.set('in.mathworks.com', 'in');
+domainCountryCodeMap.set('uk.mathworks.com', 'uk');
+domainCountryCodeMap.set('it.mathworks.com', 'it');
+domainCountryCodeMap.set('jp.mathworks.com', 'jp');
+domainCountryCodeMap.set('kr.mathworks.com', 'kr');
+domainCountryCodeMap.set('nl.mathworks.com', 'nl');
+domainCountryCodeMap.set('nl.mathworks.com', 'nl');
+domainCountryCodeMap.set('au.mathworks.com', 'au');
+domainCountryCodeMap.set('se.mathworks.com', 'se');
+domainCountryCodeMap.set('www.mathworks.com', 'us');
+domainCountryCodeMap.set('es.mathworks.com', 'es');
+domainCountryCodeMap.set('se.mathworks.com', 'se');
+domainCountryCodeMap.set('ch.mathworks.com', 'ch');
+domainCountryCodeMap.set('uk.mathworks.com', 'uk');
+(function() {
+// Check if cookies are enabled
+function cookiesEnabled() {
+return $.cookie('check', 'valid', { expires: 1 }) && $.cookie('check') == 'valid';
+}
+// Set the language of the domain and redirect to the domain
+function setMwaPrefs(domain, lang) {
+var prefs = { "domain":domain, "lang":lang};
+var myJSON = JSON.stringify(prefs);
+$.cookie('mwa_prefs', myJSON, {path: '/', expires: 20*365, domain: '.mathworks.com'});
+}
+// do not display the domain selector if querystring is not present
+// or if query string has nocookie value
+// or if cookies are disabled
+var displayDomainSelector = true;
+function detectDomain() {
+var queries = {};
+$.each(document.location.search.substr(1).split('&'), function(c,q){
+if(q != undefined && q != "") {
+var i = q.split('=');
+if(i[1] != undefined) {
+queries[i[0].toString()] = i[1].toString();
+}
+}
+});
+var requested_domain = (queries['requestedDomain'] != undefined) ? queries['requestedDomain'] : "";
+var nocookie = (queries['nocookie'] != undefined) ? queries['nocookie'] : "";
+var client = (queries['client'] != undefined) ? queries['client'] : "";
+if(requested_domain == "" || nocookie == "true" || !cookiesEnabled() || client == "addons" || window.overrideDomainSelector) {
+displayDomainSelector = false;
+}
+}
+detectDomain();
+function extractDomain(url) {
+var domain;
+//find & remove protocol (http, ftp, etc.) and get domain
+if (url.indexOf("://") > -1) {
+domain = url.split('/')[2];
+} else {
+domain = url.split('/')[0];
+}
+//find & remove port number
+domain = domain.split(':')[0];
+return domain;
+}
+function getDomainContent(returnContent) {
+// Get the location information from the marketing site
+$.ajax({
+url : "/includes_content/domainSelect/location.html",
+type : "get",
+async: false,
+success : function(data) {
+$("#location_content").html(data);
+var button_link = $("#button_link").text();
+var current_location = $("#current_location").text();
+var location_key = $("#location_key").text();
+//Set the location in the text and button
+$(".text_location").text(current_location);
+$("#domain_select_button").text("Select " + current_location);
+// Get the current page link from the links within the selector
+new_button_link = $("." + location_key).attr("href");
+$("#domain_select_button").attr("href",new_button_link);
+$("#domain_select_button").removeAttr("data-dismiss");
+}
+});
+if(returnContent) {
+return $('#country-unselected').html();
+}
+}
+$(document).ready(function () {
+$(document.body).on('click',"#country-select-container li a", function(){
+var url = $(this).attr("href");
+var domain = extractDomain(url);
+var id = $(this).attr("id");
+var lang = "";
+if(id == "swiss_english"){
+lang = "en";
+}else if(id == "swiss_french"){
+lang = "fr";
+}else if(id == "swiss_german"){
+lang = "de";
+}
+$.removeCookie('MW_AL', { path: '/', domain: '.' + extractDomain(window.location.href) });
+$.removeCookie('mwa_profile', { path: '/', domain: '.' + extractDomain(window.location.href) });
+setMwaPrefs(domainCountryCodeMap.get(domain), lang);
+});
+$( "#domain_select_button" ).click(function(){
+var url = $(this).attr("href");
+var domain = extractDomain(url);
+setMwaPrefs(domainCountryCodeMap.get(domain), "");
+});
+// determine if links need to be rewritten
+if ( $( "#country-unselected li a" ).length ) {
+$("#country-unselected li a").each(function() {
+var link_url = $(this).attr("href");
+link_url = fixTemplateEncodedPaths(link_url);
+link_url = removeCountrySelectParam(link_url);
+link_url = appendTrackingCode(link_url);
+$(this).attr("href", link_url);
+});
+}
+function removeCountrySelectParam(url){
+return url.replace(/(\?requestedDomain=true$)|(requestedDomain=true&|(&requestedDomain=true$))/g, "");
+}
+function fixTemplateEncodedPaths(url){
+var parts = url.split(".mathworks.com");
+if(parts.length > 1){
+if(startsWith(parts[1],"%")){
+url = decodeURIComponent(url);
+}
+}
+return url;
+}
+function startsWith(testValue, searchValue) {
+if (testValue.indexOf(searchValue) == 0) {
+return true;
+}
+return false;
+};
+function appendTrackingCode(url){
+if(url.indexOf("s_tid") == -1){
+if(url.indexOf("?") == -1){
+url += "?s_tid=gn_loc_drop";
+}else{
+url += "&s_tid=gn_loc_drop";
+}
+}else{
+url = updateUrlParameter(url, "s_tid", "gn_loc_drop" );
+}
+return url;
+}
+function updateUrlParameter(url, param, value){
+var regex = new RegExp('('+param+'=)[^\&]+');
+return url.replace( regex , '$1' + value);
+}
+if ( $( "li.headernav_login > a" ).length ) {
+var login_url = $("li.headernav_login > a").attr("href").replace(/%26requestedDomain(%3D[^%26|&]*)?|requestedDomain(%3D[^%26|&]*)?(%26)?/, "");
+$("li.headernav_login > a").attr("href", login_url);
+}
+if ( $( "li.mwa-nav_logout > a" ).length ) {
+var login_url = $("li.mwa-nav_logout > a").attr("href").replace(/%26requestedDomain(%3D[^%26|&]*)?|requestedDomain(%3D[^%26|&]*)?(%26)?/, "");
+$("li.mwa-nav_logout > a").attr("href", login_url);
+}
+if ( $( ".mwa-nav li a" ).length ) {
+$(".mwa-nav li a").each(function() {
+var link_url = $(this).attr("href").replace(/%26requestedDomain(%3D[^%26|&]*)?|requestedDomain(%3D[^%26|&]*)?(%26)?/, "");
+$(this).attr("href", link_url);
+});
+}
+$('body').on('click','.footernav_country a',function(){
+getDomainContent(false);
+});
+});
+// onload functionality for the selector
+$(document).ready(function () {
+if(displayDomainSelector) {
+getDomainContent(false);
+$('#country-unselected').modal('show');
+}
+});
+})(jQuery);
+</script><script type="text/javascript" src="/includes_content/nextgen/scripts/jquery/jquery.cookie.js"></script>
+<script type="text/javascript">
+var trackAndTier = getTrackAndTier();
+var mwa = "mwa" + trackAndTier;
+var mwa_profile = "mwa_profile";
+var mwaCookie = $.cookie(mwa);
+var mwaProfile = $.cookie(mwa_profile);
+if(mwaCookie){
+if(!mwaProfile){
+$.get('/login/cookies/refresh?uri=' + encodeURIComponent('/login'));
+}
+}
+function getTrackAndTier(){
+return '';
+}
+</script>
+</head>
+  
+<body id="responsive_offcanvas">
+
+  <!-- Mobile TopNav: Start -->
+<div class="header visible-xs visible-sm" id="header_mobile" translate="no">
+<nav class="navbar navbar-default" role="navigation">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle topnav_toggle" data-toggle="collapse" data-target="#topnav_collapse">
+<span class="sr-only">Toggle Main Navigation</span>
+<span class="icon-menu"></span>
+</button>
+<a href="https://www.mathworks.com?s_tid=gn_logo" class="svg_link navbar-brand">
+<img src="/images/responsive/global/pic-header-mathworks-logo.svg" class="mw_logo" alt="MathWorks">
+</a>
+</div>
+</div>
+</div>
+<div class="row visible-xs visible-sm">
+<div class="col-xs-12">
+<div class="navbar-collapse collapse" id="topnav_collapse">
+<ul class="nav navbar-nav" id="topnav">
+<li class="headernav_login dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+Tingliang
+<b class="caret"></b>
+</a>
+<ul class="dropdown-menu">
+<li class="mwa-nav_account"><a href="https://www.mathworks.com/mwaccount/?s_tid=gn_myac">My Account</a></li>
+<li class="mwa-nav_associate"><a href="https://www.mathworks.com/licensecenter/workflows/associate_license?s_tid=gn_aslc">Associate License</a></li>
+<li class="mwa-nav_community"><a href="https://www.mathworks.com/matlabcentral/profile/authors/my_profile/?s_tid=gn_comm">My Community Profile</a></li>
+<li class="mwa-nav_logout"><a href="https://www.mathworks.com/login/logout?uri=http://www.mathworks.com/help/pdf_doc/matlab/docstyle.css" id="mwa-log_out">Log Out</a></li>
+</ul>
+</li>
+<li class="topnav_products "><a href="https://www.mathworks.com/products.html?s_tid=gn_ps" >Products</a></li>
+<li class="topnav_solutions "><a href="https://www.mathworks.com/solutions.html?s_tid=gn_sol">Solutions</a></li>
+<li class="topnav_academia "><a href="https://www.mathworks.com/academia.html?s_tid=gn_acad">Academia</a></li>
+<li class="topnav_support "><a href="https://www.mathworks.com/support/?s_tid=gn_supp">Support</a></li>
+<li class="topnav_community "><a href="https://www.mathworks.com/matlabcentral/?s_tid=gn_mlc">Community</a></li>
+<li class="topnav_events "><a href="https://www.mathworks.com/company/events.html?s_tid=gn_ev">Events</a></li>
+<li class="headernav_contact"><a href="https://www.mathworks.com/company/aboutus/contact_us.html?s_tid=gn_cntus">Contact Us</a></li>
+<li class="headernav_store"><a href="https://www.mathworks.com/store?s_cid=store_top_nav&s_tid=gn_store">How to Buy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<!-- Mobile TopNav: End -->
+<!-- Desktop TopNav: Start -->
+<div class="header hidden-xs hidden-sm" id="header_desktop" translate="no">
+<nav class="navbar navbar-default" role="navigation">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12">
+<div class="collapse navbar-collapse" id="headernav_collapse">
+<ul class="nav navbar-nav navbar-right" id="headernav">
+<li class="headernav_contact"><a href="https://www.mathworks.com/company/aboutus/contact_us.html?s_tid=gn_cntus">Contact Us</a></li>
+<li class="headernav_store"><a href="https://www.mathworks.com/store?s_cid=store_top_nav&s_tid=gn_store">How to Buy</a></li>
+<li class="headernav_login dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+Tingliang
+<b class="caret"></b>
+</a>
+<ul class="dropdown-menu">
+<li class="mwa-nav_account"><a href="https://www.mathworks.com/mwaccount/?s_tid=gn_myac">My Account</a></li>
+<li class="mwa-nav_associate"><a href="https://www.mathworks.com/licensecenter/workflows/associate_license?s_tid=gn_aslc">Associate License</a></li>
+<li class="mwa-nav_community"><a href="https://www.mathworks.com/matlabcentral/profile/authors/my_profile/?s_tid=gn_comm">My Community Profile</a></li>
+<li class="mwa-nav_logout"><a href="https://www.mathworks.com/login/logout?uri=http://www.mathworks.com/help/pdf_doc/matlab/docstyle.css" id="mwa-log_out">Log Out</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="navbar-header">
+<div class="logo_container hidden-xs hidden-sm">
+<a href="https://www.mathworks.com?s_tid=gn_logo" class="svg_link pull-left">
+<img src="/images/responsive/global/pic-header-mathworks-logo.svg" class="mw_logo" alt="MathWorks">
+</a>
+</div>
+<div class="navbar-collapse collapse hidden-xs hidden-sm">
+<ul class="nav navbar-nav" id="topnav">
+<li class="topnav_products "><a href="https://www.mathworks.com/products.html?s_tid=gn_ps" >Products</a></li>
+<li class="topnav_solutions "><a href="https://www.mathworks.com/solutions.html?s_tid=gn_sol">Solutions</a></li>
+<li class="topnav_academia "><a href="https://www.mathworks.com/academia.html?s_tid=gn_acad">Academia</a></li>
+<li class="topnav_support "><a href="https://www.mathworks.com/support/?s_tid=gn_supp">Support</a></li>
+<li class="topnav_community "><a href="https://www.mathworks.com/matlabcentral/?s_tid=gn_mlc">Community</a></li>
+<li class="topnav_events "><a href="https://www.mathworks.com/company/events.html?s_tid=gn_ev">Events</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<!-- Desktop TopNav: End -->
+<!-- Conjoined Header: Start -->
+<div class="sticky_header_container includes_subnav">
+<!-- Section Header: Start -->
+<div class="section_header level_3">
+<div class="container-fluid">
+<div class="row" id="mobile_search_row">
+<div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-5 col-md-push-7" id="mobile_search">
+<div class="search_nested_content_container">
+<div id="search_scope_doc" class="collapse in">
+<form id="docsearch_form" name="docsearch_form" method="get" data-release="R2017b" data-language="en" action="search.html">
+<div class="input-group tokenized_search_field">
+<label class="sr-only">Search MATLAB Documentation</label>
+<input type="text" class="form-control conjoined_search" autocomplete="off" name="qdoc" placeholder="Search R2017b Documentation" id="docsearch">
+<div class="input-group-btn">
+<button type="button" class="btn btn_search_adjacent dropdown-toggle" data-toggle="dropdown" tabindex="-1"><span class="caret"></span><span class="search_scope_label">Documentation</span></button>
+<ul class="dropdown-menu list-unstyled dropdown-menu-right" role="menu">
+<!-- <li data-toggle="collapse" data-target="#search_scope_doc"><a href="#">Documentation</a></li> -->
+<li data-toggle="collapse" data-target="#search_scope_support" class="doc_search_scope_trigger"><a href="#">Support</a></li>
+<li data-toggle="collapse" data-target="#search_scope_site" class="doc_search_scope_trigger"><a href="#">MathWorks</a></li>
+</ul>
+<script>
+$(".doc_search_scope_trigger").click(function() {
+$("#search_scope_doc").removeClass("in");
+$("#search").val($("#docsearch").val());
+$("#query").val($("#docsearch").val());
+});
+</script>
+<button type="submit" name="submitsearch" id="submitsearch" class="btn icon-search btn_search_adjacent btn_search icon_16" tabindex="-1"></button>
+</div>
+</div>
+</form>
+</div>
+<div id="search_scope_support" class="collapse">
+<form id="support_search" action="/support/search_results.html" method="get" accept-charset="utf-8">
+<div class="input-group">
+<label class="sr-only">Search All Support Resources</label>
+<input id="suggestion" type="hidden" name="suggestion" value="">
+<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+<input id="search" class="form-control conjoined_search" type="text" name="q" placeholder="Search All Support Resources" autocomplete="off">
+<div class="input-group-btn">
+<button type="button" class="btn btn_search_adjacent dropdown-toggle" data-toggle="dropdown" tabindex="-1"><span class="caret"></span><span class="search_scope_label">Support</span></button>
+<ul class="dropdown-menu list-unstyled dropdown-menu-right" role="menu">
+<li data-toggle="collapse" data-target="#search_scope_doc" class="support_search_scope_trigger"><a href="#">Documentation</a></li>
+<!--<li data-toggle="collapse" data-target="#search_scope_support"><a href="#">Support</a></li>-->
+<li data-toggle="collapse" data-target="#search_scope_site" class="support_search_scope_trigger"><a href="#">MathWorks</a></li>
+</ul>
+<script>
+$(".support_search_scope_trigger").click(function() {
+$("#search_scope_support").removeClass("in");
+$("#docsearch").val($("#search").val());
+$("#query").val($("#search").val());
+});
+</script>
+<button type="submit" name="submitsearch" id="support_submitsearch" class="btn icon-search btn_search_adjacent btn_search icon_16" tabindex="-1"></button>
+</div>
+</div>
+</form>
+</div>
+<div id="search_scope_site" class="collapse">
+<form name="search" id="site_search" class="site_search" action="/search/site_search.html" method="get">
+<div class="input-group">
+<label class="sr-only">Search MathWorks.com</label>
+<input type="hidden" name="c[]" value="entire_site">
+<input type="text" name="q" id="query" class="form-control conjoined_search" placeholder="Search MathWorks.com" autocomplete="off" \="">
+<div class="input-group-btn">
+<button type="button" class="btn btn_search_adjacent dropdown-toggle" data-toggle="dropdown" tabindex="-1"><span class="caret"></span><span class="search_scope_label">MathWorks</span></button>
+<ul class="dropdown-menu list-unstyled dropdown-menu-right" role="menu">
+<li data-toggle="collapse" data-target="#search_scope_doc" class="site_search_scope_trigger"><a href="#">Documentation</a></li>
+<li data-toggle="collapse" data-target="#search_scope_support" class="site_search_scope_trigger"><a href="#">Support</a></li>
+<!--<li data-toggle="collapse" data-target="#search_scope_site" class="support_search_scope_trigger"><a href="#">MathWorks</a></li>-->
+</ul>
+<script>
+$(".site_search_scope_trigger").click(function() {
+$("#search_scope_site").removeClass("in");
+$("#search").val($("#query").val());
+$("#docsearch").val($("#query").val());
+});
+</script>
+<button type="submit" id="searchbutton" class="btn icon-search btn_search_adjacent btn_search icon_16" tabindex="-1"></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<button class="btn icon-remove btn_search pull-right icon_32 visible-xs" data-toggle="collapse" href="#mobile_search" aria-expanded="false" aria-controls="mobile_search"></button>
+</div>
+<div class="col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5" id="section_header_title">
+<div class="section_header_content">
+<div class="section_header_title add_cursor_pointer">
+<h1>Documentation</h1>
+</div>
+</div>
+</div>
+<div class="visible-xs" id="search_actuator">
+<button class="btn icon-search btn_search pull-right icon_16" data-toggle="collapse" href="#mobile_search" aria-expanded="false" aria-controls="mobile_search"></button>
+</div>
+</div>
+<script>
+$(".section_header_title").click(function(){
+$(window.location).attr('href', '/help');
+});
+</script>
+<!-- Section Header: End -->
+<!-- Mobile Local Nav: Start -->
+<!-- Mobile Local Nav: End -->
+</div>
+</div>
+<!-- Horo Nav: Start -->
+<div class="horizontal_nav">
+<div class="horizontal_nav_container">
+<div class="offcanvas_actuator" data-toggle="offcanvas" data-target="#sidebar" id="nav_toggle">
+<button type="button" class="btn">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-menu"></span>
+</button>
+<span class="offcanvas_actuator_label" id="translation_icon-menu" tabindex="0"></span>
+<span class="offcanvas_actuator_close" tabindex="0"></span>
+</div>
+<div class="offcanvas_horizontal_nav">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 hidden-xs hidden-sm">
+<div class="cta_box">
+<ul class="list-inline">
+<li class="cta_item cta_item_general"><a href="/programs/bounce/doc_tryit.html" class="icon-download">Trial software</a></li>
+<li class="cta_item cta_item_general"><a href="/support/web_downloads_bounce.html?s_cid=1008_degr_docdn_270055" class="icon-download">Product Updates</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Horo Nav: End -->
+</div>
+<!-- Conjoined Header: End -->
+
+  <div class="row-offcanvas row-offcanvas-left">
+  
+    <div class="sidebar-offcanvas" id="sidebar" role="navigation">
+      <nav class="offcanvas_nav" role="navigation">
+          <ul class="nav_breadcrumb">
+   <li class="support_breadcrumb"><a href="/support">All Support</a></li>
+</ul>
+<ul class="nav_toc" id="all_product_list">
+   <li class="active"><a href="/help/index.html">
+         Product Documentation
+         </a></li>
+</ul>
+<ul class="nav_toc coming_from_product" id="supp_software_list">
+   <li style="display: list-item;"><a href="matlab:doc -classic">Supplemental Software</a></li>
+</ul>
+
+      </nav>
+      <script src="/includes_content/responsive/scripts/offcanvas.js?20150311"></script>
+    </div>
+
+    <!-- MOBILE CTA - Begin -->
+    <!-- MOBILE CTA - End -->
+
+
+    <div class="content_container" id="content_container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+              
+
+
+
+
+
+
+     
+    
+
+<p style="border:2px solid red; font-weight: bold; font-size: 11pt; padding: 10px;">The page you were looking for is not available in this version of the documentation.You can use the search box or browse the products to find related information.You can also view archived documentation for prior releases.</p>
+<section id="doc_center_content" class="doc_center_landing"><style>
+            #doc_center_content .panel-heading h2 { padding:0; margin:0; border:none; font-size: 18px; font-weight: normal;}
+          </style><div class="row">
+      <div class="col-xs-12 col-sm-8">
+         <div class="panel add_margin_0">
+            <div class="panel-body">
+               <p><a href="/help/matlab/index.html"><strong>MATLAB</strong></a><br>MATLAB<sup>&reg;</sup> is the high-level language and interactive environment used by millions of engineers and scientists worldwide. The matrix-based
+                  language is a natural way to express computational mathematics.
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 add_border_left">
+         <div class="panel add_margin_0">
+            <div class="panel-body">
+               <ul class="list-unstyled add_margin_0">
+                  <li><a href="/help/matlab/getting-started-with-matlab.html"><strong>Getting Started with MATLAB</strong></a></li>
+                  <li><a href="/help/matlab/functionlist.html"><strong>Functions in MATLAB</strong></a></li>
+                  <li><a href="/help/relnotes/index.html"><strong>Release Notes</strong></a></li>
+                  <li><a href="/help/install/index.html"><strong>Installation</strong></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <hr class="add_hr_spacing_10 add_margin_20">
+   <div class="coming_from_product">
+      <div class="row add_margin_15">
+         <div class="col-xs-6">
+            <h3 class="add_margin_0 add_font_color_primary">My Products</h3>
+         </div>
+         <div class="col-xs-6">
+            <p class="text-right add_margin_0"><a href="matlab:showHelpPreferences">Edit Preferences</a></p>
+         </div>
+      </div>
+   </div>
+   <div class="not_coming_from_product">
+      <div class="row add_margin_15">
+         <div class="col-xs-6"><img class="pictogram_64" src="/images/responsive/global/r2017b.svg" alt="R2017b"></div>
+         <div class="col-xs-6">
+            <p class="text-right add_margin_0"><a href="/help/doc-archives.html">Other Releases</a></p>
+         </div>
+      </div>
+   </div>
+   <div class="row doc_families_container">
+      <div class="col-xs-12 col-sm-6 col-md-4 family_container off">
+         <div class="panel panel-default panel_color_primary add_margin_20">
+            <div class="panel-heading">
+               <h2>MATLAB<sup><small>&reg;</small></sup> Family
+               </h2>
+            </div>
+            <div class="panel-body panel_color_white panel_color_fill">
+               <ul class="list-unstyled">
+                  <li class="product-link matlab-link" id="matlab-link"><a href="/help/matlab/index.html">MATLAB</a></li>
+               </ul>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Parallel Computing</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link mdce-link" id="mdce-link"><a href="/help/mdce/index.html">MATLAB Distributed Computing Server</a></li>
+                     <li class="product-link distcomp-link" id="distcomp-link"><a href="/help/distcomp/index.html">Parallel Computing Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Math, Statistics, and Optimization</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link curvefit-link" id="curvefit-link"><a href="/help/curvefit/index.html">Curve Fitting Toolbox</a></li>
+                     <li class="product-link gads-link" id="gads-link"><a href="/help/gads/index.html">Global Optimization Toolbox</a></li>
+                     <li class="product-link mbc-link" id="mbc-link"><a href="/help/mbc/index.html">Model-Based Calibration Toolbox</a></li>
+                     <li class="product-link nnet-link" id="nnet-link"><a href="/help/nnet/index.html">Neural Network Toolbox</a></li>
+                     <li class="product-link optim-link" id="optim-link"><a href="/help/optim/index.html">Optimization Toolbox</a></li>
+                     <li class="product-link pde-link" id="pde-link"><a href="/help/pde/index.html">Partial Differential Equation Toolbox</a></li>
+                     <li class="product-link stats-link" id="stats-link"><a href="/help/stats/index.html">Statistics and Machine Learning Toolbox</a></li>
+                     <li class="product-link symbolic-link" id="symbolic-link"><a href="/help/symbolic/index.html">Symbolic Math Toolbox</a></li>
+                     <li class="product-link textanalytics-link" id="textanalytics-link"><a href="/help/textanalytics/index.html">Text Analytics Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Control Systems</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link aerotbx-link" id="aerotbx-link"><a href="/help/aerotbx/index.html">Aerospace Toolbox</a></li>
+                     <li class="product-link driving-link" id="driving-link"><a href="/help/driving/index.html">Automated Driving System Toolbox</a></li>
+                     <li class="product-link control-link" id="control-link"><a href="/help/control/index.html">Control System Toolbox</a></li>
+                     <li class="product-link fuzzy-link" id="fuzzy-link"><a href="/help/fuzzy/index.html">Fuzzy Logic Toolbox</a></li>
+                     <li class="product-link mpc-link" id="mpc-link"><a href="/help/mpc/index.html">Model Predictive Control Toolbox</a></li>
+                     <li class="product-link robotics-link" id="robotics-link"><a href="/help/robotics/index.html">Robotics System Toolbox</a></li>
+                     <li class="product-link robust-link" id="robust-link"><a href="/help/robust/index.html">Robust Control Toolbox</a></li>
+                     <li class="product-link ident-link" id="ident-link"><a href="/help/ident/index.html">System Identification Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Signal Processing and Communications</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link antenna-link" id="antenna-link"><a href="/help/antenna/index.html">Antenna Toolbox</a></li>
+                     <li class="product-link audio-link" id="audio-link"><a href="/help/audio/index.html">Audio System Toolbox</a></li>
+                     <li class="product-link comm-link" id="comm-link"><a href="/help/comm/index.html">Communications System Toolbox</a></li>
+                     <li class="product-link dsp-link" id="dsp-link"><a href="/help/dsp/index.html">DSP System Toolbox</a></li>
+                     <li class="product-link ltehdl-link" id="ltehdl-link"><a href="/help/ltehdl/index.html">LTE HDL Toolbox</a></li>
+                     <li class="product-link lte-link" id="lte-link"><a href="/help/lte/index.html">LTE System Toolbox</a></li>
+                     <li class="product-link phased-link" id="phased-link"><a href="/help/phased/index.html">Phased Array System Toolbox</a></li>
+                     <li class="product-link rf-link" id="rf-link"><a href="/help/rf/index.html">RF Toolbox</a></li>
+                     <li class="product-link signal-link" id="signal-link"><a href="/help/signal/index.html">Signal Processing Toolbox</a></li>
+                     <li class="product-link wavelet-link" id="wavelet-link"><a href="/help/wavelet/index.html">Wavelet Toolbox</a></li>
+                     <li class="product-link wlan-link" id="wlan-link"><a href="/help/wlan/index.html">WLAN System Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Image  Processing and Computer Vision</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link driving-link" id="driving-link"><a href="/help/driving/index.html">Automated Driving System Toolbox</a></li>
+                     <li class="product-link vision-link" id="vision-link"><a href="/help/vision/index.html">Computer Vision System Toolbox</a></li>
+                     <li class="product-link imaq-link" id="imaq-link"><a href="/help/imaq/index.html">Image Acquisition Toolbox</a></li>
+                     <li class="product-link images-link" id="images-link"><a href="/help/images/index.html">Image Processing Toolbox</a></li>
+                     <li class="product-link map-link" id="map-link"><a href="/help/map/index.html">Mapping Toolbox</a></li>
+                     <li class="product-link visionhdl-link" id="visionhdl-link"><a href="/help/visionhdl/index.html">Vision HDL Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Test and Measurement</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link daq-link" id="daq-link"><a href="/help/daq/index.html">Data Acquisition Toolbox</a></li>
+                     <li class="product-link imaq-link" id="imaq-link"><a href="/help/imaq/index.html">Image Acquisition Toolbox</a></li>
+                     <li class="product-link instrument-link" id="instrument-link"><a href="/help/instrument/index.html">Instrument Control Toolbox</a></li>
+                     <li class="product-link opc-link" id="opc-link"><a href="/help/opc/index.html">OPC Toolbox</a></li>
+                     <li class="product-link vnt-link" id="vnt-link"><a href="/help/vnt/index.html">Vehicle Network Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Computational Finance</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link database-link" id="database-link"><a href="/help/database/index.html">Database Toolbox</a></li>
+                     <li class="product-link datafeed-link" id="datafeed-link"><a href="/help/datafeed/index.html">Datafeed Toolbox</a></li>
+                     <li class="product-link econ-link" id="econ-link"><a href="/help/econ/index.html">Econometrics Toolbox</a></li>
+                     <li class="product-link fininst-link" id="fininst-link"><a href="/help/fininst/index.html">Financial Instruments Toolbox</a></li>
+                     <li class="product-link finance-link" id="finance-link"><a href="/help/finance/index.html">Financial Toolbox</a></li>
+                     <li class="product-link risk-link" id="risk-link"><a href="/help/risk/index.html">Risk Management Toolbox</a></li>
+                     <li class="product-link exlink-link" id="exlink-link"><a href="/help/exlink/index.html">Spreadsheet Link</a></li>
+                     <li class="product-link trading-link" id="trading-link"><a href="/help/trading/index.html">Trading Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Computational Biology</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link bioinfo-link" id="bioinfo-link"><a href="/help/bioinfo/index.html">Bioinformatics Toolbox</a></li>
+                     <li class="product-link simbio-link" id="simbio-link"><a href="/help/simbio/index.html">SimBiology</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Code Generation</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link hdlfilter-link" id="hdlfilter-link"><a href="/help/hdlfilter/index.html">Filter Design HDL Coder</a></li>
+                     <li class="product-link fixedpoint-link" id="fixedpoint-link"><a href="/help/fixedpoint/index.html">Fixed-Point Designer</a></li>
+                     <li class="product-link gpucoder-link" id="gpucoder-link"><a href="/help/gpucoder/index.html">GPU Coder</a></li>
+                     <li class="product-link hdlcoder-link" id="hdlcoder-link"><a href="/help/hdlcoder/index.html">HDL Coder</a></li>
+                     <li class="product-link hdlverifier-link" id="hdlverifier-link"><a href="/help/hdlverifier/index.html">HDL Verifier</a></li>
+                     <li class="product-link coder-link" id="coder-link"><a href="/help/coder/index.html">MATLAB Coder</a></li>
+                     <li class="product-link visionhdl-link" id="visionhdl-link"><a href="/help/visionhdl/index.html">Vision HDL Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Application Deployment</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link compiler-link" id="compiler-link"><a href="/help/compiler/index.html">MATLAB Compiler</a></li>
+                     <li class="product-link compiler_sdk-link" id="compiler_sdk-link"><a href="/help/compiler_sdk/index.html">MATLAB Compiler SDK</a></li>
+                     <li class="product-link mps-link" id="mps-link"><a href="/help/mps/index.html" class="not_coming_from_product">MATLAB Production Server</a></li>
+                     <li class="product-link exlink-link" id="exlink-link"><a href="/help/exlink/index.html">Spreadsheet Link</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Database Access and Reporting</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link database-link" id="database-link"><a href="/help/database/index.html">Database Toolbox</a></li>
+                     <li class="product-link rptgen-link" id="rptgen-link"><a href="/help/rptgen/index.html">MATLAB Report Generator</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 family_container off">
+         <div class="panel panel-default panel_color_primary add_margin_20">
+            <div class="panel-heading">
+               <h2>Simulink<sup><small>&reg;</small></sup> Family
+               </h2>
+            </div>
+            <div class="panel-body panel_color_white panel_color_fill">
+               <ul class="list-unstyled">
+                  <li class="product-link simulink-link" id="simulink-link"><a href="/help/simulink/index.html">Simulink</a></li>
+               </ul>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Fixed-Point Designer</h4>
+                  <ul class="list-unstyled"></ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Event-Based Modeling</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link simevents-link" id="simevents-link"><a href="/help/simevents/index.html">SimEvents</a></li>
+                     <li class="product-link stateflow-link" id="stateflow-link"><a href="/help/stateflow/index.html">Stateflow</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Physical Modeling</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link simscape-link" id="simscape-link"><a href="/help/physmod/simscape/index.html">Simscape</a></li>
+                     <li class="product-link sdl-link" id="sdl-link"><a href="/help/physmod/sdl/index.html">Simscape Driveline</a></li>
+                     <li class="product-link elec-link" id="elec-link"><a href="/help/physmod/elec/index.html">Simscape Electronics</a></li>
+                     <li class="product-link hydro-link" id="hydro-link"><a href="/help/physmod/hydro/index.html">Simscape Fluids</a></li>
+                     <li class="product-link sm-link" id="sm-link"><a href="/help/physmod/sm/index.html">Simscape Multibody</a></li>
+                     <li class="product-link smlink-link" id="smlink-link"><a href="/help/physmod/smlink/index.html">Simscape Multibody Link</a></li>
+                     <li class="product-link sps-link" id="sps-link"><a href="/help/physmod/sps/index.html">Simscape Power Systems</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Control Systems</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link aeroblks-link" id="aeroblks-link"><a href="/help/aeroblks/index.html">Aerospace Blockset</a></li>
+                     <li class="product-link autoblks-link" id="autoblks-link"><a href="/help/autoblks/index.html">Powertrain Blockset</a></li>
+                     <li class="product-link robotics-link" id="robotics-link"><a href="/help/robotics/index.html">Robotics System Toolbox</a></li>
+                     <li class="product-link slcontrol-link" id="slcontrol-link"><a href="/help/slcontrol/index.html">Simulink Control Design</a></li>
+                     <li class="product-link sldo-link" id="sldo-link"><a href="/help/sldo/index.html">Simulink Design Optimization</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Signal Processing and Communications</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link audio-link" id="audio-link"><a href="/help/audio/index.html">Audio System Toolbox</a></li>
+                     <li class="product-link comm-link" id="comm-link"><a href="/help/comm/index.html">Communications System Toolbox</a></li>
+                     <li class="product-link vision-link" id="vision-link"><a href="/help/vision/index.html">Computer Vision System Toolbox</a></li>
+                     <li class="product-link dsp-link" id="dsp-link"><a href="/help/dsp/index.html">DSP System Toolbox</a></li>
+                     <li class="product-link phased-link" id="phased-link"><a href="/help/phased/index.html">Phased Array System Toolbox</a></li>
+                     <li class="product-link simrf-link" id="simrf-link"><a href="/help/simrf/index.html">RF Blockset</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Code Generation</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link qualkitdo-link" id="qualkitdo-link"><a href="/help/qualkitdo/index.html">DO Qualification Kit (for DO-178)</a></li>
+                     <li class="product-link ecoder-link" id="ecoder-link"><a href="/help/ecoder/index.html">Embedded Coder</a></li>
+                     <li class="product-link fixedpoint-link" id="fixedpoint-link"><a href="/help/fixedpoint/index.html">Fixed-Point Designer</a></li>
+                     <li class="product-link hdlcoder-link" id="hdlcoder-link"><a href="/help/hdlcoder/index.html">HDL Coder</a></li>
+                     <li class="product-link certkitiec-link" id="certkitiec-link"><a href="/help/certkitiec/index.html">IEC Certification Kit (for ISO 26262 and IEC 61508)</a></li>
+                     <li class="product-link ltehdl-link" id="ltehdl-link"><a href="/help/ltehdl/index.html">LTE HDL Toolbox</a></li>
+                     <li class="product-link rtw-link" id="rtw-link"><a href="/help/rtw/index.html">Simulink Coder</a></li>
+                     <li class="product-link plccoder-link" id="plccoder-link"><a href="/help/plccoder/index.html">Simulink PLC Coder</a></li>
+                     <li class="product-link visionhdl-link" id="visionhdl-link"><a href="/help/visionhdl/index.html">Vision HDL Toolbox</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Real-Time Simulation and Testing</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link sldrt-link" id="sldrt-link"><a href="/help/sldrt/index.html">Simulink Desktop Real-Time</a></li>
+                     <li class="product-link xpc-link" id="xpc-link"><a href="/help/xpc/index.html">Simulink Real-Time</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Verification, Validation, and Test</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link hdlverifier-link" id="hdlverifier-link"><a href="/help/hdlverifier/index.html">HDL Verifier</a></li>
+                     <li class="product-link bugfinder-link" id="bugfinder-link"><a href="/help/bugfinder/index.html">Polyspace Bug Finder</a></li>
+                     <li class="product-link codeprover-link" id="codeprover-link"><a href="/help/codeprover/index.html">Polyspace Code Prover</a></li>
+                     <li class="product-link slcheck-link" id="slcheck-link"><a href="/help/slcheck/index.html">Simulink Check</a></li>
+                     <li class="product-link slci-link" id="slci-link"><a href="/help/slci/index.html">Simulink Code Inspector</a></li>
+                     <li class="product-link slcoverage-link" id="slcoverage-link"><a href="/help/slcoverage/index.html">Simulink Coverage</a></li>
+                     <li class="product-link sldv-link" id="sldv-link"><a href="/help/sldv/index.html">Simulink Design Verifier</a></li>
+                     <li class="product-link slrequirements-link" id="slrequirements-link"><a href="/help/slrequirements/index.html">Simulink Requirements</a></li>
+                     <li class="product-link sltest-link" id="sltest-link"><a href="/help/sltest/index.html">Simulink Test</a></li>
+                  </ul>
+               </div>
+               <div class="product_group off">
+                  <h4 class="add_bottom_rule">Simulation Graphics and Reporting</h4>
+                  <ul class="list-unstyled">
+                     <li class="product-link sl3d-link" id="sl3d-link"><a href="/help/sl3d/index.html">Simulink 3D Animation</a></li>
+                     <li class="product-link rptgenext-link" id="rptgenext-link"><a href="/help/rptgenext/index.html">Simulink Report Generator</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+         <div class="panel panel-default panel_color_primary add_margin_20 family_container off">
+            <div class="panel-heading">
+               <h2>Polyspace<sup><small>&reg;</small></sup> Family
+               </h2>
+            </div>
+            <div class="panel-body panel_color_white panel_color_fill">
+               <ul class="list-unstyled">
+                  <li class="product-link qualkitdo-link" id="qualkitdo-link"><a href="/help/qualkitdo/index.html">DO Qualification Kit (for DO-178)</a></li>
+                  <li class="product-link certkitiec-link" id="certkitiec-link"><a href="/help/certkitiec/index.html">IEC Certification Kit (for ISO 26262 and IEC 61508)</a></li>
+                  <li class="product-link bugfinder-link" id="bugfinder-link"><a href="/help/bugfinder/index.html">Polyspace Bug Finder</a></li>
+                  <li class="product-link codeprover-link" id="codeprover-link"><a href="/help/codeprover/index.html">Polyspace Code Prover</a></li>
+                  <li class="product-link polyspace_ada-link" id="polyspace_ada-link"><a href="/help/polyspace_ada/index.html">Polyspace Products for Ada</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="panel panel-default panel_color_primary add_margin_20">
+            <div class="panel-heading">
+               <h2>Hardware Support</h2>
+            </div>
+            <div class="panel-body panel_color_white panel_color_fill">
+               <ul class="list-unstyled support_package_list sp-links family_container off">
+                  <div class="addon_list"></div>
+               </ul>
+               <ul class="list-unstyled">
+                  <div id="web_link">
+                     <li class="coming_from_product in_product_hw_link">For a complete list of hardware solutions, see <a href="matlab:showAddonExplorerForHardwareSupportPackages">Hardware Support</a>.
+                     </li>
+                     <li class="not_coming_from_product system_browser_hw_link">For a complete list of hardware solutions, see <a href="http://www.mathworks.com/hardware">Hardware Support</a>.
+                     </li>
+                  </div>
+               </ul>
+            </div>
+         </div>
+         <div class="panel panel-default panel_color_primary add_margin_20 family_container off">
+            <div class="panel-heading">
+               <h2>Supplemental Software</h2>
+            </div>
+            <div class="panel-body panel_color_white panel_color_fill">
+               <ul class="list-unstyled support_package_list 3p-links">
+                  <div class="3p_list">
+                     <li class="product-link coming_from_product 3p-link"><a href="matlab:doc -classic">Supplemental Software</a></li>
+                  </div>
+               </ul>
+            </div>
+         </div>
+         <div class="footer_container coming_from_product">
+            <div class="footer">
+               <ul class="footernav">
+                  <li class="footernav_trademarks"><a href="MATLAB:web([docroot '/acknowledgments.html'])">Acknowledgments</a></li>
+                  <li class="footernav_trademarks"><a href="MATLAB:web([matlabroot '/trademarks.txt'])">Trademarks</a></li>
+                  <li class="footernav_patents"><a href="MATLAB:web([matlabroot '/patents.txt'])">Patents</a></li>
+                  <li class="footernav_help"><a href="MATLAB:web(matlab.internal.licenseAgreement)">Terms of Use</a></li>
+               </ul>
+               <div class="copyright">&copy; 1994-2016 The MathWorks, Inc.</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+<div id="location_content" style="display:none;"></div>
+
+
+<div class="modal fade" id="country-unselected" translate="no">
+<div id="country-select-container">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <object type="image/svg+xml" width="167px" class="mw_logo" alt="MathWorks" data="/images/responsive/global/pic-header-mathworks-logo2.svg">
+          <img alt="MathWorks" width="167px" src="/images/responsive/global/pic-header-mathworks-logo.png">
+        </object>
+      </div>
+      <div class="modal-body">
+        <div class="row add_margin_40">
+          <div class="col-xs-12">
+            <h1 class="icon-globe icon_color_secondary">Select Your Country</h1>
+            <p>Choose your country to get translated content where available and see local events and offers. Based on your location, we recommend that you select: <strong class="text_location"></strong>.</p>
+            <a href="#" id="domain_select_button" class="btn btn_secondary" data-dismiss="modal"></a>
+          </div>
+        </div>
+        <p>You can also select a location from the following list:</p>
+        <div class="row add_margin_30">
+          <div class="col-sm-4 col-md-3">
+            <h3 class="add_bottom_rule">Americas</h3>
+            <ul class="list-unstyled">
+              <li><a href="http://la.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="america_latina_select">America Latina</a> (Español)</li>
+              <li><a href="http://www.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="canada_select">Canada</a> (English)</li>
+              <li><a href="http://www.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="united_states_select">United States</a> (English)</li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-6">
+            <h3 class="add_bottom_rule">Europe</h3>
+            <div class="row">
+              <div class="col-xs-6 col-sm-12 col-md-6">
+                <ul class="list-unstyled add_margin_0_sm">
+                  <li><a href="http://nl.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="belgium_select">Belgium</a> (English)</li>
+                  <li><a href="http://se.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="denmark_select">Denmark</a> (English)</li>
+                  <li><a href="http://de.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="deutschland_select">Deutschland</a> (Deutsch)</li>
+                  <li><a href="http://es.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="espana_select">España</a> (Español)</li>
+                  <li><a href="http://se.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="finland_select">Finland</a> (English)</li>
+                  <li><a href="http://fr.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="france_select">France</a> (Français)</li>
+                  <li><a href="http://uk.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="ireland_select">Ireland</a> (English)</li>
+                  <li><a href="http://it.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="italia_select">Italia</a> (Italiano)</li>
+                  <li><a href="http://nl.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="luxembourg_select">Luxembourg</a> (English)</li>
+                </ul>
+              </div>
+              <div class="col-xs-6 col-sm-12 col-md-6">
+                <ul class="list-unstyled">
+                  <li><a href="http://nl.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="netherlands_select">Netherlands</a> (English)</li>
+                  <li><a href="http://se.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="norway_select">Norway</a> (English)</li>
+                  <li><a href="http://de.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="osterreich_select">Österreich</a> (Deutsch)</li>
+                  <li><a href="http://www.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="portugal_select">Portugal</a> (English)</li>
+                  <li><a href="http://se.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="sweden_select">Sweden</a> (English)</li>
+                  <li>Switzerland
+                    <ul class="list-unstyled add_indent_20">
+                      <li><a href="http://ch.mathworks.com/help/pdf_doc/matlab/docstyle.css" id="swiss_german" class="switzerland_select">Deutsch</a></li>
+                      <li><a href="http://ch.mathworks.com/help/pdf_doc/matlab/docstyle.css" id="swiss_english" class="switzerland_select">English</a></li>
+                      <li><a href="http://ch.mathworks.com/help/pdf_doc/matlab/docstyle.css" id="swiss_french">Français</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="http://uk.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="united_kingdom_select">United Kingdom</a> (English)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <h3 class="add_bottom_rule">Asia Pacific</h3>
+            <ul class="list-unstyled">
+              <li><a href="http://au.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="australia_select">Australia</a> (English)</li>
+              <li><a href="http://in.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="india_select">India</a> (English)</li>
+              <li><a href="http://au.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="new_zealand_select">New Zealand</a> (English)</li>
+              <li><a href="http://cn.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="china_select">中国</a> (简体中文)</li>
+              <li><a href="http://jp.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="japan_select">日本</a> (日本語)</li>
+              <li><a href="http://kr.mathworks.com/help/pdf_doc/matlab/docstyle.css" class="korea_select">한국</a> (한국어)</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-center"><strong><a href="/company/worldwide.html">See all countries</a></strong></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBILE CTA - Begin -->
+    <div class="cta_container_mobile visible-sm visible-xs">
+      <div class="container-fluid">      
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="cta_box">
+<ul class="list-inline">
+<li class="cta_item cta_item_general"><a href="/programs/bounce/doc_tryit.html" class="icon-download">Trial software</a></li>
+<li class="cta_item cta_item_general"><a href="/support/web_downloads_bounce.html?s_cid=1008_degr_docdn_270055" class="icon-download">Product Updates</a></li>
+</ul>
+</div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MOBILE CTA - End -->
+
+
+    <footer id="footer" class="bs-footer">
+        <!-- FAT FOOTER - Begin --> 
+        <div class="container-fluid">
+          <div class="fat_footer_container">
+            <div class="grid_192">
+<div class="fat_footer">
+<div class="execmatlabweb"> <!--Requried for Doc Test -->
+<div class="row">
+<div class="col-xs-12 col-md-12 col-lg-9 col-lg-push-3 add_margin_20">
+<div class="row">
+<div class="col-xs-12 col-sm-2">
+<h5>Explore Products</h5>
+<ul class="list-unstyled">
+<li><a href="/products/matlab.html?s_tid=hp_ff_p_matlab">MATLAB</a></li>
+<li><a href="/products/simulink.html?s_tid=hp_ff_p_simulink">Simulink</a></li>
+<li><a href="/academia/student_version.html?s_tid=hp_ff_p_student">Student Software</a></li>
+<li><a href="/hardware-support/home.html?s_tid=hp_ff_p_hwsupport">Hardware Support</a></li>
+<li><a href="/matlabcentral/fileexchange/?s_tid=hp_ff_p_fx">File Exchange</a></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-2">
+<h5>Try or Buy</h5>
+<ul class="list-unstyled">
+<li><a href="/downloads/web_downloads/?s_iid=hp_ff_t_downloads">Downloads</a></li>
+<li><a href="/programs/trials/trial_request.html?s_iid=hp_ff_p_trial">Trial Software</a></li>
+<li><a href="/company/aboutus/contact_us/contact_sales.html?s_iid=hp_ff_t_sales">Contact Sales</a></li>
+<li><a href="/pricing-licensing.html?s_iid=hp_ff_t_pricing">Pricing and Licensing</a></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-2">
+<h5>Learn to Use</h5>
+<ul class="list-unstyled">
+<li><a href="/help/?s_tid=hp_ff_l_doc">Documentation</a></li>
+<li><a href="/support/learn-with-matlab-tutorials.html?s_tid=hp_ff_l_tutorials">Tutorials</a></li>
+<li><a href="/examples/?s_tid=hp_ff_l_examples">Examples </a></li>
+<li><a href="/videos.html?s_tid=hp_ff_l_videos">Videos and Webinars</a></li>
+<li><a href="/services/training.html?s_tid=hp_ff_l_training">Training</a></li>
+</ul>
+</div>
+<div class="clearfix" id="offcanvas_clearfix" style="display:none"></div>
+<div class="col-xs-12 col-sm-2">
+<h5>Get Support</h5>
+<ul class="list-unstyled">
+<li><a href="/support/install-matlab.html?s_tid=hp_ff_s_install">Installation Help</a></li>
+<li><a href="/matlabcentral/answers/?s_tid=hp_ff_s_answers">Answers </a></li>
+<li><a href="/services/consulting.html?s_tid=hp_ff_s_consulting">Consulting</a></li>
+<li><a href="http://status.mathworks.com/?s_tid=hp_ff_s_application">Application Status</a></li>
+<li><a href="/licensecenter/?s_tid=hp_ff_s_license">License Center</a></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-2">
+<h5>About <span translate="no">MathWorks</span></h5>
+<ul class="list-unstyled">
+<li><a href="/company/jobs/opportunities/?s_tid=hp_ff_a_careers">Careers</a></li>
+<li><a href="/company/newsroom.html?s_tid=hp_ff_a_newsroom">Newsroom</a></li>
+<li><a href="/company/aboutus/soc_mission.html?s_tid=hp_ff_a_socialmission">Social Mission</a></li>
+<li><a href="/company.html?s_tid=hp_ff_a_company">About <span translate="no">MathWorks</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-md-12 col-lg-3 col-lg-pull-9">
+<h4 class="add_font_futura_medium add_margin_0"><span translate="no">MathWorks<span translate="no"></h4>
+<p><em>Accelerating the pace of engineering and science</em></p>
+<p><span translate="no">MathWorks</span> is the leading developer of mathematical computing software for engineers and scientists.</p>
+<p><a href="/discovery.html?s_tid=all_disc_mw_ff">Discover...</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+          </div>
+        </div>
+        <!-- FAT FOOTER - End -->
+      <div class="container-fluid">
+       <div class="footer" translate="no">
+<div class="row">
+<div class="col-xs-12 col-lg-9">
+<ul class="countrynav" id="countrynav">
+<li class="footernav_country">
+<a href="javascript:void(0);" data-toggle="modal" data-target="#country-unselected">
+<span class="icon-globe icon_color_quinary icon_16"></span>United States
+</a>
+</li>
+</ul>
+<div class="clearfix"></div>
+<ul class="footernav">
+<li class="footernav_patents"><a href="https://www.mathworks.com/company/aboutus/policies_statements/patents.html?s_tid=gf_pat">Patents</a></li>
+<li class="footernav_trademarks"><a href="https://www.mathworks.com/company/aboutus/policies_statements/trademarks.html?s_tid=gf_trd">Trademarks</a></li>
+<li class="footernav_privacy"><a href="https://www.mathworks.com/company/aboutus/policies_statements.html?s_tid=gf_priv">Privacy Policy</a></li>
+<li class="footernav_piracy"><a href="https://www.mathworks.com/company/aboutus/policies_statements/piracy.html?s_tid=gf_pir">Preventing Piracy</a></li>
+</ul>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<p class="copyright" translate="no">&copy; 1994-2018 The MathWorks, Inc.</p>
+</div>
+<div class="clearfix visible-sm add_margin_10"></div>
+<div class="col-xs-12 col-lg-3">
+<div class="social_media">
+<ul class="social_media_icons">
+<li>
+<a href="http://www.facebook.com/MATLAB" target="_blank" class="svg_link">
+<img src="/images/responsive/global/ico-facebook.svg" alt="Facebook" class="ico_facebook">
+</a>
+</li>
+<li>
+<a href="http://www.twitter.com/MATLAB" target="_blank" class="svg_link">
+<img src="/images/responsive/global/ico-twitter.svg" alt="Twitter" class="ico_twitter">
+</a>
+</li>
+<li>
+<a href="https://plus.google.com/117177960465154322866?prsrc=3" target="_blank" class="svg_link">
+<img src="/images/responsive/global/ico-google-plus.svg" alt="Google+" class="ico_google">
+</a>
+</li>
+<li>
+<a href="http://www.linkedin.com/company/the-mathworks_2" target="_blank" class="svg_link">
+<img src="/images/responsive/global/ico-linkedin.svg" alt="LinkedIn" class="ico_linkedin">
+</a>
+</li>
+<li>
+<a href="https://www.mathworks.com/company/rss.html" class="svg_link">
+<img src="/images/responsive/global/ico-rss.svg" alt="RSS" class="ico_rss">
+</a>
+</li>
+</ul>
+<div class="clearfix"></div>
+<p><em>Join the conversation</em></p>
+</div>
+</div>
+</div>
+</div>
+<!-- BEGIN Adobe DTM -->
+<script type="text/javascript">
+try {
+_satellite.pageBottom();
+} catch (e) {
+//something went wrong
+}
+</script>
+<!-- END Adobe DTM -->
+      </div>
+    </footer>
+
+  </div>
+
+
+</body>
+</html>
