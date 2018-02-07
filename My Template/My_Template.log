@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.12.20)  7 FEB 2018 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.12.20)  7 FEB 2018 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -123,17 +123,20 @@ LaTeX Font Info:    ... okay on input line 23.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 23.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
  (c:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 
 
 AED: lastpage setting LastPage
 
-LaTeX Warning: Reference `Lastpage' on page 1 undefined on input line 48.
+LaTeX Warning: Reference `Lastpage' on page 1 undefined on input line 60.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -150,11 +153,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1275 strings out of 492995
- 14339 string characters out of 6136401
- 68718 words of memory out of 5000000
- 4875 multiletter control sequences out of 15000+600000
- 5018 words of font info for 19 fonts, out of 8000000 for 9000
+ 1276 strings out of 492995
+ 14355 string characters out of 6136401
+ 69718 words of memory out of 5000000
+ 4876 multiletter control sequences out of 15000+600000
+ 5316 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  27i,11n,43p,209b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
@@ -162,7 +165,7 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2017/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on My_Template.pdf (1 page, 44457 bytes).
+Output written on My_Template.pdf (1 page, 44127 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

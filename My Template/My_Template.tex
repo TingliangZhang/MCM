@@ -3,14 +3,14 @@
 
 \documentclass[12pt]{article}
 
-\usepackage{amsmath, amssymb}
+\usepackage{amsmath, amssymb} %Math Symbel
 
 
 %页眉
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \usepackage{lastpage}
-\lhead{Team \# 1234}
+\lhead{Team \# 16}
 \rhead{Page \thepage{} of \pageref{Lastpage} }
 \cfoot{}
 %% \renewcommand{\headrulewidth}{0pt}  %无横线
@@ -22,12 +22,20 @@
 
 \begin{document}
 
+%标题
+\begin{center}
+\large hhhhh
+\end{center}•
+
+
+
+%字体
 Hello!\\
-a,b,c,\ldots,z.\\
 This is \textbf{bold text}.\\
 \textit{tight text}\\
 \texttt{same wighth}
 
+%插入代码
 \begin{verbatim}
 #include stdio.h
 s = 0;
@@ -36,11 +44,15 @@ for i=1:100
 end
 \end{verbatim}
 
+%居中
 \begin	{center}
 centered
 \end{center}
 
+%符号
 new paragraph
+
+a,b,c,\ldots,z.\\
 \textbackslash  %output\
  \% \}
  
