@@ -11,9 +11,14 @@
 \begin{document}
 \begin{abstract}
 
-Summary Sheet: The summary is an essential part of your MCM/ICM paper. The judges place considerable weight on the summary, and winning papers are often distinguished from other papers based on the quality of the summary.
+Summary Sheet: The summary is an essential part of your MCM/ICM paper. 
+The judges place considerable weight on the summary, 
+and winning papers are often distinguished from other papers based on the quality of the summary.
 
-To write a good summary, imagine that a reader will choose whether to read the body of the paper based on your summary: Your concise presentation in the summary should inspire a reader to learn about the details of your work. Thus, a summary should clearly describe your approach to the problem and, most prominently, your most important conclusions.  Summaries that are mere restatements of the contest problem, or are a cut-and-paste boilerplate from the Introduction are generally considered to be weak.
+To write a good summary, imagine that a reader will choose whether to read the body of the paper based on your summary: 
+Your concise presentation in the summary should inspire a reader to learn about the details of your work. 
+Thus, a summary should clearly describe your approach to the problem and, most prominently, your most important conclusions.  
+Summaries that are mere restatements of the contest problem, or are a cut-and-paste boilerplate from the Introduction are generally considered to be weak.
 
 Besides the summary sheet as described each paper should contain the following sections:
 
@@ -97,6 +102,11 @@ a^2 \label{aa}
   = \frac{{Opposite}}{{Hypotenuse}}\cos ^{ - 1} \theta \arcsin \theta
 \]
 
+$$p_{i}=\begin{cases}0,&\text{if $j$ is odd}\\ 
+3r!\left( -1\right) ^{i},&\text{if $j$ is even}
+\end{cases}$$
+
+\url{http://webdemo.myscript.com/views/math.html}
 
 \[
   p_{j}=\begin{cases} 0,&\text{if $j$ is odd}\\
@@ -161,16 +171,27 @@ Addison-Wesley Publishing Company, 1986.
 
 \section{First appendix}
 
-
-
 Here are simulation programmes we used in our model as follow.\\
 
 \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
 \lstinputlisting[language=Matlab]{./code/mcmthesis-matlab1.m}
 
+Here is the ball simulation:\\
+
+\begin{figure}[h]
+\small
+\centering
+\includegraphics[width=12cm]{ball.eps}
+\caption{range} \label{fig:ball}
+\end{figure}
+
+\textbf{\textcolor[rgb]{0.98,0.00,0.00}{The Ball matlab source:}}
+\lstinputlisting[language=Matlab]{./code/ball.m}
+
+
 \section{Second appendix}
 
-some more text \textcolor[rgb]{0.98,0.00,0.00}{\textbf{Input C++ source:}}
+some more text \textcolor[rgb]{0.00,0.90,0.00}{\textbf{Input C++ source:}}
 \lstinputlisting[language=C++]{./code/mcmthesis-sudoku.cpp}
 
 \end{appendices}
